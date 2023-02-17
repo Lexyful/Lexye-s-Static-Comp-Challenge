@@ -1,13 +1,22 @@
 * {
-  font-family: American Typewriter, serif
-} 
+  font-family: American Typewriter, serif;
+}
 
 
-nav {
+.navigation-bar-container{
   background: rgb(228, 3, 119);
   margin: 10px;
   padding-bottom: 50px;
   height: 100%;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: baseline; */
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  
 }
 
 body {  
@@ -15,23 +24,36 @@ body {
 
 } 
 
+main {
+  display: flex;
+  flex-direction: column;
+}
 
 h1 {
   font-size: 80px;
   color: #f5eeee;
-  margin: right;
   height: 25%;
 }
 
-h2 {
+h2:hover {
 font-size: 20px;
 color: #f5eeee;
 }
 
-.menu-buttons {
-
+/* .menu-buttons {
 
   margin-top: 60px;
+} */
+
+.container-one{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.container-two{
+  display: flex;
+  flex-direction: row;
 }
 
 .box{
@@ -42,12 +64,16 @@ color: #f5eeee;
   height: 300px;
   width: 400px;
   background-color:  #ffffff;
-
+  margin: 50px;
 }
 
+.box:hover{
+  cursor: pointer;
+  background-color: #e1aad1;
+}
 .photo-icon{
   margin-top: 80px;
-  border-radius: 25px;
+
 }
 
 button:hover {
@@ -55,5 +81,5 @@ button:hover {
 }
 
 .hidden {
-  display : none;
+  display: none;
 }
