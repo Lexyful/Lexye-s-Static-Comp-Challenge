@@ -2,24 +2,27 @@
   font-family: "Times New Roman", Times, serif;
 }
 
-
-header{
-  background: rgb(228, 3, 119);
-  height: 100%;
+.title-section {
  
+  color: #f5eeee;
+  height: 25%;
+  
 }
 
-.title-section{
+.navigation-bar-container{
   width: 100%;
-  height: 100%;
+  height: 200px;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  flex-direction: row;
+  background: rgb(228, 3, 119);
+
   
 }
 .menu{
   display: flex;
-  flex-direction: row;
+  justify-content: flex-end;
+
+
   
 }
 
@@ -40,9 +43,14 @@ h1 {
 }
 
 p:hover {
-font-size: 14px;
+
 color: #f5eeee;
 }
+
+a:hover {
+  
+  color: #f5eeee;
+  }
 
 /* .menu-buttons {
 
@@ -64,11 +72,21 @@ color: #f5eeee;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 100px;
+ 
   height: 400px;
   width: 400px;
   background-color:  #ffffff;
   margin: 50px;
+}
+
+.photo-icon{ 
+  height: 180px;
+  width: 320px;
+}
+
+.icon{
+  height: 20px;
+  width: 20px;
 }
 
 .box:hover{
@@ -77,7 +95,7 @@ color: #f5eeee;
 }
 
 .recipient-details{
-  font-size: 8px;
+  font-size: 12px;
 }
 
 button:hover {
