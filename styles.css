@@ -2,79 +2,84 @@
   font-family: "Times New Roman", Times, serif;
 }
 
-.title-section {
- 
-  color: #f5eeee;
-  height: 25%;
-  
-}
-
 .navigation-bar-container{
-  width: 100%;
-  height: 200px;
+ 
   display: flex;
-  flex-direction: row;
-  background: rgb(228, 3, 119);
-
-  
+  justify-content: space-between;
+  background-color: #dd1070;
+  color: #ffffff;
+  height: 15vh;
+  padding: 5px 5px 5px 5px;
 }
-.menu{
-  display: flex;
-  justify-content: flex-end;
 
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  color: #ffffff; 
+  align-items: flex-end;
+}
+  
+.admin-title {
+    display: flex;
+    flex-direction: column;
+  }
 
   
+.adminTitle {
+  display: flex;
+  flex-direction: column;
+  margin-top: -2px;
+  align-items: flex-end;
 }
 
 body {  
   background: rgb(253, 210, 232);
-
 } 
 
-main {
-  display: flex;
-  flex-direction: column;
+.shares {
+  font-size: 40px;
+  color: #f5eeee;
+  margin-top: 30px;
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 40px;
   color: #f5eeee;
-  height: 25%;
 }
 
 p:hover {
+  color: #de8540;
+  cursor: pointer;
 
-color: #f5eeee;
 }
 
-a:hover {
-  
-  color: #f5eeee;
-  }
+.a:hover {
+  color: #df6363;
+  cursor: pointer;
 
-/* .menu-buttons {
-
-  margin-top: 60px;
-} */
+}
 
 .container-one{
+  flex-wrap: wrap;
   display: flex;
   flex-direction: row;
-  
+  width: 100%;
 }
 
 .container-two{
+  flex-wrap: wrap;
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
 .box{
   display: flex;
   flex-direction: column;
   align-items: center;
- 
   height: 400px;
-  width: 400px;
+  width: 320px;
   background-color:  #ffffff;
   margin: 50px;
 }
@@ -98,10 +103,4 @@ a:hover {
   font-size: 12px;
 }
 
-button:hover {
-  background-color: #EBC3A8;
-}
 
-.hidden {
-  display: none;
-}
